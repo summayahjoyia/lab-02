@@ -2,8 +2,8 @@
 
 ## Student Details
 
-- **Full Name:** `<Summayah Javed>`
-- **CCID:** `<summayah>`
+- **Full Name:** `Summayah Javed`
+- **CCID:** `summayah`
 
 ## References and Resources
 
