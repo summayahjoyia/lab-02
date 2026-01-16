@@ -6,25 +6,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-//fix later in lab
+
+    <EditText
+        android:id="@+id/entercity"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter city...."
+        app:layout_constraintTop_toTopOf="parent"/>
     <Button
-        android:id="@+id/button"
-        android:layout_width="167dp"
-        android:layout_height="63dp"
+        android:id="@+id/add_button"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#008000"
         android:text="Add city"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/delete_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/entercity" />
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Delete city"
+        android:backgroundTint="#FF0000"
         app:layout_constraintEnd_toEndOf="parent"
-        android:onClick = "addTheCity">
-    </Button>
-
-
+        app:layout_constraintStart_toEndOf="@+id/add_button"
+        app:layout_constraintTop_toBottomOf="@id/entercity" />
     <ListView
         android:id="@+id/city_list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-38dp">
-
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_button">
     </ListView>
 
 
