@@ -10,6 +10,7 @@
 List any resources used here, or simply put `N/A` if not applicable.
 https://www.geeksforgeeks.org/android/constraintlayout-in-android/ 
 https://www.youtube.com/watch?v=btBp9xQpLOs
+https://stackoverflow.com/questions/3766900/how-to-take-input-from-user-in-android
 
 ## Verbal Collaboration
 
